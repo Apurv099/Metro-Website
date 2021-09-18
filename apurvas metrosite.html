@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mumbai Metro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link REL="SHORTCUT ICON" HREF="images/web-icon.ico">
+</head>
+<body >
+	<header>
+		<div class="container"  >
+			<div class="logo-brand">
+			<a href="metrosite.html" >
+            	<div id="logo-img" alt="Logo image" >
+            		<img id="logo-img" src="images/metro logo.png">
+            	</div>
+          	</a>
+			<div class="brand-name">
+				<br>
+				<br>
+				<a href="metrosite.html"><h1>Mumbai Metro</h1></a>
+				<p>
+              		<img src="images/star-k-logo.png" id="stark" >
+              		<span>Official Website</span>
+            	</p>
+			</div>
+			</div>
+			<div class="icons">
+				<div class="home-icon">
+					<a href="#home">
+					<span class="material-icons">
+						home
+					</span>
+					<p>
+              			<span>Home</span>
+        	    	</p>
+        	    	</a>
+				</div>
+				<div class="Map-icon">
+					<a href="#map">
+					<span class="material-icons">
+						explore
+					</span>
+					<p>
+              			<span>Map</span>
+              		</p>
+              		</a>
+              	</div>
+              	<div class="Book-icon">
+              		<a href="#book_tickets">
+					<span class="material-icons">
+						book_online
+					</span>
+					<p>
+              			<span>Book Tickets</span>
+              		</p>
+              		</a>
+              	</div>
+
+				<div class="Account-icon">
+					<a href="#account">
+					<span class="material-icons">
+						account_circle
+					</span>
+					<p>
+              			<span>Account</span>
+              		</p>
+              		</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--end of header section-->
+	<div id="main-content" class="main-container">
+
+			<img src="images/mum.metro.jpg" class="main-image" id="home" >
+
+			<div class="account-login-form" id="account">
+				<p class="page-title">
+					Welcome to Account Login
+				</p>
+				<div class="admin-form">
+					<form>
+						<h3>User Name</h3>
+    						<input type="text" class="form-control" placeholder="Enter your user name">
+							<h3>Password</h3>
+   	 						<input type="text" class="form-control" placeholder="Enter Password">
+					 		<button type="submit" class="sub-but">SUBMIT</button>
+  							<button class="chp-but">FORGOT PASSWORD</button>
+					</form>
+				</div>
+			</div>
+
+
+			<!-- METRO MAP -->
+			<div>
+				<img src="images/metro.map.jpg" class="main-image" id="map">
+			</div>
+
+			<!-- METRO FARE CALCULATOR -->
+			<div id="book_tickets">
+				<p class="page-title">
+					METRO FARE CALCULATOR
+				</p>
+			 <div class="metro-fare-calculator">
+				<div class="source">
+					<h2>SOURCE</h2>
+					<select class="form-select" aria-label="Default select example">
+					  <option selected>Please select a source</option>
+					  <option value="1">One</option>
+					  <option value="2">Two</option>
+					  <option value="3">Three</option>
+					</select>
+				</div>
+				<div class="arrow">
+					<span class="material-icons">
+						east
+					</span>
+				</div>
+				<div class="destination">
+					<h2>DESTINATION</h2>
+					<select class="form-select " aria-label="Default select example">
+					  <option selected>Please select a Destination</option>
+					  <option value="1">One</option>
+					  <option value="2">Two</option>
+					  <option value="3">Three</option>
+					</select>
+				</div>
+			</div>
+			<div>
+				<button class="calculate btn btn-success">CALCULATE FARE</button>
+				<input type="text" class="form-control answer" id="fare" name="money" value="Your Fare is..." readonly><br><br>
+			</div>
+		</div>
+        
+	</div>
+
+
+
+
+	<!--START OF FOOTER SECTION -->
+	<footer>
+		<section class="contact-section" id="contact">
+                <div class="contact-section__left">
+                    <h2>Contact us:</h2>
+                    <p>To ensure highest possible level of Customer Satisfaction regarding our service, we have Customer Care counters at each of the 12 stations manned from the first service in the morning till the last service at night. You can reach us for feedback/ assistance.</p>
+                    <p class="">Phone: 
+                    	<a href="tel:+91 22 30310900" class="navbar_link"> +91 22 30310900</a>
+                    </p>
+                    <p class="" class="navbar_link">Email: 
+                    	<a href="mailto:customercare@reliancemumbaimetro.com" 
+                    	class="navbar_link">
+                    		customercare@reliancemumbaimetro.com
+                    	</a>
+                    </p>
+                </div>
+                <div class="contact-section__right">
+                    <h2>Follow us on:</h2>
+                    <p>
+                    <a href="https://www.facebook.com/apurva.gurav.16" target="_blank" class="navbar_link">Facebook</a></p>
+                    <p>
+                    <a href="https://www.instagram.com/gurav_apurv/" target="_blank" class="navbar_link">Instagram</a></p>
+                    <p><a href="" class="navbar_link">Twitter</a></p>
+                    <p><a href="" class="navbar_link">Youtube</a></p>
+                    <p class="legal-text">&copy; Designed And Developed By Apurva Gurav </p>
+                </div>
+  		</section>
+	</footer>
+</body>
+</html>  
